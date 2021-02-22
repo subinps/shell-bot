@@ -3,4 +3,4 @@ build:
   docker:
       worker: Dockerfile
 run:
-   worker: node server
+   worker: node /shell-bot/server
